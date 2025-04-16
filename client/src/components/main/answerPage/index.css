@@ -1,0 +1,10 @@
+.answer_question_meta {
+  color: var(--answer-question-meta);
+}
+
+.ansButton {
+  margin: 2% 0 2% 2%;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}

@@ -1,0 +1,32 @@
+.vote-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.vote-button {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(--button-background);
+  color: white;
+  font-family: var(--font-family);
+  cursor: pointer;
+  outline: none;
+}
+
+.vote-button-upvoted {
+  background-color: #38a169;
+  color: white;
+}
+
+.vote-button-downvoted {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.vote-count {
+  margin-left: 0.5rem;
+  color: var(--text-color)
+}

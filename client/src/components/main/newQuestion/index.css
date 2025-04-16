@@ -1,0 +1,39 @@
+.form_postBtn {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    background-color: var(--button-background);
+    border: 3px solid #ccc;
+  }
+  
+.form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: var(--text-color);
+    background-color: #ababab5d;
+  }
+
+.form p {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+.form .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }

@@ -1,0 +1,9 @@
+.form {
+  background-color: var(--header-background);
+  padding: 20px;
+  width: 60%; /* Adjust as per requirement */
+  margin: 20px auto; /* Centers the form on the page */
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}

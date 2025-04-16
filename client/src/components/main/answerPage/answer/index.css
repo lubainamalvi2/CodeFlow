@@ -1,0 +1,25 @@
+/* All the CSS related to answers Page*/
+.answer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: var(--text-color) 1px dashed;
+}
+
+.answerText {
+  width: 75%;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}
+
+.answerAuthor {
+  margin-left: 5%;
+}
+
+.answer_author {
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}

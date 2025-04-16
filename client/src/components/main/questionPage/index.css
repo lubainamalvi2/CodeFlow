@@ -1,0 +1,19 @@
+.btns {
+  margin-right: 0%;
+}
+
+.count_label {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}
+
+.end_of_content {
+  text-align: center;
+  margin: 20px;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}

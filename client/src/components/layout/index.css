@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 80px);
+}
+
+.right_main {
+  width: 85%;
+  overflow: auto;
+  padding: 5px 10px 5px 10px;
+}
+
+.space_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_padding {
+  padding: 1% 0 1% 1%;
+}
+
+.bold_title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 40px;
+  font-family: var(--font-family);
+  color: var(--text-color)
+}
+
+.bluebtn {
+  background: var(--button-background);
+  color: #ffffff;
+  border: transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--box-shadow);
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 5%;
+}
+
+.bluebtn:hover {
+  background:var(--button-hover);
+}
+
+.btn_indicator_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This will push child elements to the extremes of the container */
+  width: 100%;
+}
+
+.form_postBtn {
+  background: var(--button-background);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mandatory_indicator {
+  font-size: 0.8rem;
+  color: red;
+  margin-top: 10px;
+}

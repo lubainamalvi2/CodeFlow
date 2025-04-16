@@ -1,0 +1,107 @@
+:root {
+    --font-family: Arial;
+    --font-size: medium;
+    --font-weight: normal;
+  }
+  
+  h1 {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+  }
+  
+  label {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+  }
+  
+  select {
+    padding: 5px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    margin-left: 5px;
+  }
+
+  
+  .settings-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--nav-button);
+  }
+  
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--text-color);
+  }
+
+  .preview-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+  }
+
+  .settings-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--text-color);
+  }
+  
+  .theme-label {
+    margin-right: 10px;
+  }
+  
+  .theme-select {
+    padding: 5px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+  }
+
+  .reset-pwd-button {
+    background: var(--button-background);
+    color: #ffffff;
+    border: #000000 1px solid;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    padding: 10px 10px 10px 10px;
+    margin-right: 5%;
+    border-radius: 10px;
+    transition: background 0.3s, border-color 0.3s, color 0.3s;
+  }
+
+  .reset-pwd-button:hover {
+    background: var(--button-hover-background);
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-border-color);
+  }
+  
+  body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+  }
+  
